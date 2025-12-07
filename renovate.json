@@ -3,6 +3,9 @@
     "labels": [
         "dependencies"
     ],
+    "unknown-element": [
+        "value": false
+    ],
     "extends": [
         "config:recommended"
     ],
