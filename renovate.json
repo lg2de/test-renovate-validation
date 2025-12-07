@@ -3,9 +3,6 @@
     "labels": [
         "dependencies"
     ],
-    "unknown-element": [
-        "value": false
-    ],
     "extends": [
         "config:recommended"
     ],
@@ -38,7 +35,7 @@
             "enabled": false
         },
         {
-            "matchPackageNames": [
+            "matchPackageNames2": [
                 "xunit.runner.visualstudio"
             ],
             "allowedVersions": "< 3.0.0"
