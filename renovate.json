@@ -35,17 +35,14 @@
             "enabled": false
         },
         {
-            "matchPackageNames2": [
+            // some comment
+            "matchPackageNames": [
                 "xunit.runner.visualstudio"
             ],
             "allowedVersions": "< 3.0.0"
         },
-        {
-            "matchPackageNames": [
-                "/xunit.v3/"
-            ],
-            "allowedVersions": "< 2.0.0"
-        },
+        // compact
+        { "matchPackageNames": [ "/xunit.v3/" ], "allowedVersions": "< 2.0.0" },
         {
             "matchPackageNames": [
                 "xunit.stafact"
